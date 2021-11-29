@@ -1,7 +1,7 @@
 /*
  * @Author: wangkun
  * @Date: 2021-11-29 13:25:24
- * @LastEditTime: 2021-11-29 14:33:18
+ * @LastEditTime: 2021-11-29 14:41:43
  * @LastEditors: wangkun
  * @Description: 
  */
@@ -37,7 +37,6 @@ export default function (v) {
                     return
                 }
                 if (Math.abs(init.d) < 50) {
-                    console.log(1111)
                     el.style.left = `${-1 * init.index * init.screenWidth}px`
                 } else {
                     let idx = init.index
